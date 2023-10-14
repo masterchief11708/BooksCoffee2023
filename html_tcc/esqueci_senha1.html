@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+
+    <title>Books&Coffe</title>
+</head>
+
+<body>
+    <div class="texto-esqueci">
+        <h1>Esqueci a Senha</h1>
+        <p>Insira seu e-mail e clique em "Enviar" para receber um código de recuperação por <br> e-mail.</p>
+
+        <form id="esqueci-form" onsubmit="showAlert(); return false;">
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <div id="esqueci-alerta">Enviaremos um código de recuperação ao seu e-mail.</div>
+
+    </div>
+    <script>
+        function showAlert() {
+            var email = document.getElementById("email").value;
+            var alertMessage = document.getElementById("esqueci-alerta");
+            alertMessage.style.display = "block";
+            alertMessage.textContent = "Enviamos um código de recuperação para o e-mail " + email + ", verifique-o.";
+        }
+    </script>
+</body>
+
+</html>

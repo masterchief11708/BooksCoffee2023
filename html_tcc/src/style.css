@@ -1,0 +1,216 @@
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("imagens/teladefundo.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logobege {
+    width: 245px;
+    height: 252px;
+}
+
+.navbar .iconeuser {
+    width: 64px;
+    height: 64px;
+    margin-top: 35px;
+    padding: 6px;
+    margin-right: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -27px;
+    height: 60px;
+}
+
+.navbar ul li {
+    background-color: #1D3426;
+    margin: 15px;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    width: 295px;
+    height: 59px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.texto-principal {
+    display: flex;
+    width: 100%;
+    height: 280px;
+}
+
+.texto-principal h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer .banner {
+    width: 100%;
+    height: 300px;
+}
+
+.paragrafosconheca {
+    text-align: start;
+    transform: translateY(-120px);
+    margin-left: 230px;
+
+}
+
+.paragrafos .paragrafo1 {
+    text-align: start;
+    margin-left: 800px;
+}
+
+.fotosloja ul li img {
+
+    width: 297px;
+    height: 302px;
+    border-radius: 20px;
+}
+.fotosloja ul {
+    display: flex;
+    justify-content: center;
+    transform: translateY(-80px);
+}
+.fotosloja ul li{
+    margin-left: 20px;
+
+}
+.paragrafos-somos{
+    display: flex;
+    text-align:center;
+    margin-left: 260px;
+    transform: translateY(-110px)
+    
+}
+.paragrafos-somos .quem-somos {
+    text-align:start;
+    font-size: large;
+}
+.contato-horario{
+    transform: translateY(-35px)
+}
+.contato-horario .horario{
+    font-size:medium;
+    margin-left: 30px;
+    transform: translateY(76px);
+}
+.contato-horario .contato {
+    font-size: medium;
+    margin-left: 400px;
+}
+.produtos ul li {
+display: flex;
+width: 210px;
+height: 165px;
+border-radius: 20px;
+margin-left: 250px;
+flex-direction: row;
+white-space: nowrap;
+
+}
+.produtos ul li img{
+   
+    border-radius: 20px;
+    margin-right: 10px;
+    transform: translateX(10px);
+    transform: translateY(-110px);
+  
+    
+}
+.produtos ul li span {
+    flex-grow: 1; 
+    text-align: left; 
+    font-weight: 700;
+    font-size: larger;
+}
+.menu-direita {
+  
+    background-color: #1D3426;
+    padding: 0px; 
+    padding-right: 0px;
+    padding-left: 0px;
+    list-style: none; 
+    width: fit-content;
+    text-align: left;
+    margin-left: 760px;
+    border-radius: 12px;
+    position: absolute;
+    top: 150px;
+}
+
+.menu-direita li {
+    display: flex;
+    margin-bottom: 5px; 
+    padding-left: 0px;
+}
+
+.menu-direita a {
+
+    display: flex;
+    color: #fff; 
+    text-decoration: none; 
+    height: fit-content;
+    
+}
+
+.menu-direita a:hover {
+    text-decoration: underline; 
+}
+.texto-esqueci {
+    
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+  
+}
+.texto-esqueci h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    height: 280px;
+   
+
+}
+.texto-esqueci p{
+  
+    width: 100%;
+    height: -50px;
+   text-align: center;
+}
+.texto-esqueci button{
+
+    background-color: #1D3426;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.texto-esqueci form{
+    margin-left: 50px;
+  
+
+}
